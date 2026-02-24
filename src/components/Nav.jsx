@@ -16,8 +16,7 @@ const Nav = () => {
             items-center gap-16 max-lg:hidden'>
                 {navLinks.map((item) => (
                     <li key={item.label}>
-                        <a href={item.href} className="font-montserrat 
-                        leading-normal text-lg 
+                        <a href={item.href} className="font-montserrat leading-normal text-lg 
                         text-slate-gray hover:text-coral-red">
                             {item.label}
                         </a>
@@ -25,6 +24,9 @@ const Nav = () => {
                 ))}
 
             </ul>
+            <div className='hidden max-lg:block cursor-pointer'>
+                <img src={hamburger} alt="sidebar" width={25} height={25} />
+            </div>
         </nav>
     </header>
   )
