@@ -1,6 +1,30 @@
+import Button from "../components/Button"
 const SuperQuality = () => {
   return (
-    <div>SuperQuality</div>
+    <section id="about-us"
+    className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
+      <div className="flex flex-1 flex-col">
+        <h2 className="font-palanquin text-4xl capitilize font-bold lg:max-w-lg">
+          We Provide You
+          <span className="text-coral-red">Super</span>
+      
+          <span className="text-coral-red ">Quality</span> Shoes
+        </h2>
+        <p className="mt-4 lg:max-w-lg info-text">
+          Experience the perfect blend of style and comfort with our super quality shoes. Crafted with precision and designed for durability, our footwear ensures you step out in confidence and style every time.
+        </p>
+        <p className="mt-4 lg:max-w-lg info-text">
+          Our dedication to detail and excellence ensures your satisfaction.
+        </p>
+        <div className="mt-11">
+          <Button 
+          label="View More"
+         />
+        </div>
+
+        
+      </div>
+    </section>
   )
 }
 
