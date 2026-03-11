@@ -13,10 +13,11 @@ const Subscribe = () => {
           placeholder="subscribe@nike.com" 
           className="input"
         />
+        <div className="flex max-sm:justify-end items-center max-sm:w-full">
+          <Button label="Sign Up" fullWidth />
+        </div>
       </div>
-      <div className="flex max-sm:justify-end items-center max-sm:w-full">
-        <Button label="Sign Up" fullWidth />
-      </div>
+      
     </section>
   )
 }
